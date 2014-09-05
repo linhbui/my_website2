@@ -453,7 +453,7 @@
 				var el = $(this);
 				
 				setTimeout ( function () {
-					el.animate({opacity: 1} , 600 );
+					el.animate({opacity: 1} , 3000 );
 				},  k * 50 );
 				
 			});
@@ -487,7 +487,7 @@
 					if( direction === 'down' && !$(this).hasClass('animated') ) {
 						
 						setTimeout ( function () {
-							el.animate({opacity: 1} , 600 );
+							el.animate({opacity: 1} , 1000 );
 						}, k * 50 );
 						
 					}							
